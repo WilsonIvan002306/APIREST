@@ -5,6 +5,6 @@ const router = require('./routes/joyasRoute')
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 
-app.use('/joyas/anillo',router)
+app.use('/joyas',router)
 
 module.exports = app
